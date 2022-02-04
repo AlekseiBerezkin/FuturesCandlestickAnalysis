@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FuturesCandlestickAnalysis"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="528" Width="802">
     <Grid>
+        <ListBox x:Name="Jurnal15min" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="13,127,411,20"/>
+        <ListBox x:Name="Jurnal60min" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="409,127,15,20"/>
+        <Label Content="Журнал 15 минутного графика" HorizontalAlignment="Left" Margin="13,96,0,0" VerticalAlignment="Top"/>
+        <Label Content="Журнал часового графика" HorizontalAlignment="Left" Margin="632,96,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnStart" Content="Старт" HorizontalAlignment="Left" Margin="13,47,0,0" VerticalAlignment="Top" Width="78"/>
+        <Button x:Name="btnStop" Content="Стоп" HorizontalAlignment="Left" Margin="114,47,0,0" VerticalAlignment="Top" Width="78"/>
+        <Button x:Name="btnSettings" Content="Настройки алерта" HorizontalAlignment="Left" Margin="652,42,0,0" VerticalAlignment="Top" Width="135"/>
+        <Label Content="Курс BTC/USDT" HorizontalAlignment="Center" Margin="0,24,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbRate15" Content="465879" HorizontalAlignment="Left" Margin="253,78,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label x:Name="lbRate60" Content="465879" Margin="0,78,253,0" VerticalAlignment="Top" FontSize="24" HorizontalAlignment="Right" Width="88"/>
 
     </Grid>
 </Window>
