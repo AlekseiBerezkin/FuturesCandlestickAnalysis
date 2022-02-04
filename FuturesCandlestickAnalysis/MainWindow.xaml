@@ -11,7 +11,7 @@
         <ListBox x:Name="Jurnal60min" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="409,127,15,20"/>
         <Label Content="Журнал 15 минутного графика" HorizontalAlignment="Left" Margin="13,96,0,0" VerticalAlignment="Top"/>
         <Label Content="Журнал часового графика" HorizontalAlignment="Left" Margin="632,96,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnStart" Content="Старт" HorizontalAlignment="Left" Margin="13,47,0,0" VerticalAlignment="Top" Width="78"/>
+        <Button x:Name="btnStart" Content="Старт" HorizontalAlignment="Left" Margin="13,47,0,0" VerticalAlignment="Top" Width="78" Click="btnStart_Click"/>
         <Button x:Name="btnStop" Content="Стоп" HorizontalAlignment="Left" Margin="114,47,0,0" VerticalAlignment="Top" Width="78"/>
         <Button x:Name="btnSettings" Content="Настройки алерта" HorizontalAlignment="Left" Margin="652,42,0,0" VerticalAlignment="Top" Width="135"/>
         <Label Content="Курс BTC/USDT" HorizontalAlignment="Center" Margin="0,24,0,0" VerticalAlignment="Top"/>

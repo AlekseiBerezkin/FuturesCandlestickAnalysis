@@ -24,5 +24,10 @@ namespace FuturesCandlestickAnalysis
         {
             InitializeComponent();
         }
+
+        private void btnStart_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
