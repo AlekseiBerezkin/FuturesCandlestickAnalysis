@@ -1,0 +1,22 @@
+﻿<Window x:Class="FuturesCandlestickAnalysis.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FuturesCandlestickAnalysis"
+        mc:Ignorable="d"
+        Title="Settings" Height="145" Width="800">
+    <Grid>
+        <TextBox x:Name="tbChatsId" HorizontalAlignment="Left" Margin="128,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="653"/>
+        <Label Content="Telegram chatId" HorizontalAlignment="Left" Margin="20,19,0,0" VerticalAlignment="Top"/>
+        <Label Content="Отношение второй свечи к первой  1:" HorizontalAlignment="Left" Margin="27,92,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbAttitude" HorizontalAlignment="Left" Margin="248,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="32"/>
+        <Label Content="Процент просадки 2 свечи" HorizontalAlignment="Left" Margin="302,92,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbDrawdown" HorizontalAlignment="Left" Margin="474,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33"/>
+        <Button x:Name="btnSave" Content="Сохранить" HorizontalAlignment="Left" Margin="604,96,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbChatsId_Copy" HorizontalAlignment="Left" Margin="128,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="581"/>
+        <Label Content="Путь к файлу" HorizontalAlignment="Left" Margin="20,56,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnPath" Content="Обзор" HorizontalAlignment="Left" Margin="719,58,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
